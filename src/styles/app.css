@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #5F9EA0;
+  color: #00688B;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  width: 85%;
+  border-radius: 5px;
+  background-color: #F0FFFF;
+  margin: auto;
+  padding: 0.8em;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btn-form {
+  padding: 0.7em;
+  background-color: #00688B;
+  border: 1px solid #00688B;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 50%;
+  margin-top: 0.5em;
+}
+
+.btn-cancel{
+  padding: 0.7em;
+  background-color: #838B8B;
+  border: 1px solid #838B8B;
+  width: 13%;
+}
+
+.btn-form:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+label{
+  font-size: 20px;
+}
+
+.li{
+  text-align: left;
+  margin: 0.5em 0;
+}
+
+.li-button{
+  margin: 0 0.3em;
+  background-color: #00688B;
+  border: 1px solid #00688B;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ul{
+  list-style:none;
+  /* column-count: 2; */
+}
+
+.d-inl-bl{
+  display: inline-block;
+}
+
+.d-none{
+  display: none;
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+  .container{
+    width: 40%;
+  }
+}
